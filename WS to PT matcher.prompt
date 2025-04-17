@@ -1,6 +1,5 @@
 # PROBLEMPROMPT
 TASK: Problem Template Matching
-DOMAIN: Mathematics (CHANGE TO TOPIC NAME)
 
 ## OBJECTIVE
 Compare each question in a provided worksheet against Problem Templates (PTs) to identify matching templates based on strict criteria.
@@ -17,13 +16,13 @@ REQUIRED MATCHING CONDITIONS:
 
 ## OUTPUT SPECIFICATION
 FORMAT: Markdown table with columns:
-| Question Number | PT# | Justification |
+| Question Number | PT# (just the number, no PT infront of the number) | Justification |
 
 REQUIREMENTS:
 - Justification must explicitly validate all matching criteria
 - Use "no match" for non-matching items with specific reason
 - Example valid match:
-  "Q19 ↔ PT62906: Both contextual 2-step decimal multiplication with price calculations"
+  "Q19 ↔ 62906: Both contextual 2-step decimal multiplication with price calculations"
 
 ## OPERATIONAL PROTOCOL
 1. ACKNOWLEDGE receipt of worksheet and PT PDF
@@ -34,10 +33,10 @@ REQUIREMENTS:
 
 ## EXAMPLES
 VALID MATCH:
-Q12 ↔ PT62845: Both contextual single-step weight conversion with 2 given values
+Q12 ↔ 62845: Both contextual single-step weight conversion with 2 given values
 
 INVALID MATCH:
-Q15 ↔ PT62911: Rejected - Worksheet has context but PT is abstract
+Q15 ↔ 62911: Rejected - Worksheet has context but PT is abstract
 
 NO MATCH:
 Q08: No matching PT (reason: no templates with 4 given volume values)

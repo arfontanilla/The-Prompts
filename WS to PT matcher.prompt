@@ -12,6 +12,7 @@ REQUIRED MATCHING CONDITIONS:
 4. Process Matching: Must follow same problem-solving approach
 5. Context Consistency:
    - Both must be contextual (real-world) or both non-contextual
+   - Contexts can be different as long as both are contextual
    - NO mixed context/non-context matches permitted
 
 ## OUTPUT SPECIFICATION
